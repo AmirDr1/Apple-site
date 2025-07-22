@@ -1,4 +1,4 @@
-*{
+/* *{
     font-family: "San Francisco";
     box-sizing: border-box;
     margin: 0px;
@@ -29,23 +29,29 @@ a :hover{
     cursor: pointer;
 }
 main{
-  background-image: url(image/hero_bts_2025__kjxalx8t7ia2_large.jpg);
-  width: 100%;
-  padding: 150px;
-  /* display: flex; */
+    width: 100%;
+    background-image: url( image/hero_bts_2025__kjxalx8t7ia2_large.jpg);
+    height: 100vh;
+    margin: 0px;
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+    
 }
-main>h1{
-    margin: 0px auto;
-    padding: 0px;
-    width: 35%;
-    display: flex;
-        justify-content: center;
-    display: flex;
-    border: 1px solid #007AFF;
-    color: #ffffff;
-    background-color: #007AFF;
-    text-align: center;
-    border-radius: 50px;
-    font-size: 60px;
+main>div>h1>sup{
+    font-size: 15px;
+    
 }
- 
+main>div>h1{
+    
+}
+main>div{
+    background-color: #007aff;
+    text-align: justify;
+    margin: auto;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 16%;
+    
+} */
